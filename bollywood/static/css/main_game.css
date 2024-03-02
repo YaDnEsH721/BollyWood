@@ -1,0 +1,10 @@
+body {
+    background-color: lightgreen;
+}
+.modal {
+    background-color: red;
+}
+.rounds {
+    font-size: 1.2rem;
+    color: white;
+}

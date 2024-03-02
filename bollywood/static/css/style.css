@@ -1,0 +1,68 @@
+body {
+    background-color: lightblue;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+}
+h1 {
+    font-weight: bold;
+    margin: 4%;
+}
+button, input {
+    width: 20rem;
+}
+input {
+    margin-bottom: 8%;
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: .8rem;
+}
+input:focus {
+    outline: 2px solid orange;
+}
+input::placeholder {
+    font-weight: 500;
+}
+#create_form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: fit-content;
+    width: fit-content;
+    text-align: center;
+    border-radius: 8px;
+    padding: 1rem;
+    background-color: orange;
+}
+.footer {
+    display: flex;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    padding: 1rem;
+    background-color: lightgreen;
+}
+.about, .play_info {
+    padding: 1%;
+    width: 70%;
+}
+.about {
+    border-right: 1px solid green;
+}
+@media screen and (max-width: 768px) {
+    
+    .footer {
+        display: block;
+        overflow-x: auto;
+    }
+    .about, .play_info {
+        width: 100%;
+        border: none;
+    }
+    h1 {
+        margin-top: 50%;
+        font-size: 3rem;
+    }
+}
