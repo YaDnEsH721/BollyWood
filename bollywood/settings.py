@@ -135,3 +135,5 @@ SECURE_SSL_REDIRECT = True
 
 SESSION_COOKIE_SECURE = True
 CSRF_COOKIE_SECURE = True
+
+SESSION_ENGINE = 'django.contrib.sessions.backends.cache'
