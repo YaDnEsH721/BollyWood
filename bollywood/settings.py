@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-0qzk7i=edy%vivs@b8i^y=xg00q#15#8^7rbm+#y+axeb&9*(m
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['RoLeX07.pythonanywhere.com']
 
 
 # Application definition
@@ -123,8 +123,7 @@ STATICFILES_DIRS = (
     os.path.join(BASE_DIR, 'bollywood/static'),
 )
 
-STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
-
+STATIC_ROOT = 'home/RoLeX07/Bollywood/bollywood/static'
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field
 
